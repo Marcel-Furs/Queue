@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolejki.API", "Kolejki\Kolejki.API.csproj", "{5C890929-A2B0-4B4C-B440-A0E29A6694AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolejki.API", "Kolejki\Kolejki.API.csproj", "{5C890929-A2B0-4B4C-B440-A0E29A6694AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolejka.Email", "Kolejka.Email\Kolejka.Email.csproj", "{C733A64D-8218-48CF-AF30-F381F9F9071E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolejka.Email", "Kolejka.Email\Kolejka.Email.csproj", "{C733A64D-8218-48CF-AF30-F381F9F9071E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C733A64D-8218-48CF-AF30-F381F9F9071E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C733A64D-8218-48CF-AF30-F381F9F9071E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C733A64D-8218-48CF-AF30-F381F9F9071E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

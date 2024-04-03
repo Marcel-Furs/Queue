@@ -1,5 +1,7 @@
 ﻿using RabbitMQ.Client;
+using Shared;
 using System.Text;
+using System.Text.Json;
 
 namespace Kolejki.API.Services
 {
@@ -28,7 +30,13 @@ namespace Kolejki.API.Services
 
             channel.QueueDeclare(queueName, durable, exclusive, autoDelete);
 
-            var data = Encoding.UTF8.GetBytes($"{receiver};{subject};{body}");
+            var emailDto = new EmailDto
+            {
+                Body = body,
+                Receiver = receiver,
+                Subject = subject
+            };
+            var data = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(emailDto));
             string exchangeName = "";
             channel.BasicPublish(exchangeName, queueName, body: data);
         }
