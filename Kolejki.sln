@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolejki.API", "Kolejki\Kole
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolejka.Email", "Kolejka.Email\Kolejka.Email.csproj", "{C733A64D-8218-48CF-AF30-F381F9F9071E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kolejki.ApplicationCore", "Kolejki.ApplicationCore\Kolejki.ApplicationCore.csproj", "{EC300B55-F4C9-4D59-879D-80EDABD43BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolejki.IntegrationsTests", "Kolejki.IntegrationsTests\Kolejki.IntegrationsTests.csproj", "{D6B7F1B1-0AA4-4A18-AC7D-4CA73F2A04CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD37F41-9A1A-46D3-8B9D-E77403CC1796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC300B55-F4C9-4D59-879D-80EDABD43BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC300B55-F4C9-4D59-879D-80EDABD43BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC300B55-F4C9-4D59-879D-80EDABD43BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC300B55-F4C9-4D59-879D-80EDABD43BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B7F1B1-0AA4-4A18-AC7D-4CA73F2A04CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B7F1B1-0AA4-4A18-AC7D-4CA73F2A04CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B7F1B1-0AA4-4A18-AC7D-4CA73F2A04CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B7F1B1-0AA4-4A18-AC7D-4CA73F2A04CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

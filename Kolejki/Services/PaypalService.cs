@@ -1,4 +1,5 @@
-﻿using System.Net.Http.Json;
+﻿using Kolejki.ApplicationCore.Exceptions;
+using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -67,7 +68,7 @@ namespace Kolejki.API.Services
             }
             else
             {
-                throw new Exception("Invalid paypal response: " + response.StatusCode);
+                throw new OrderCreationException("Invalid paypal response: " + response.StatusCode);
             }
         }
     }
